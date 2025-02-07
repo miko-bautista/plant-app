@@ -1,0 +1,14 @@
+name: Wait and Print Short
+
+on:
+  workflow_dispatch:  # Allows manual triggering from GitHub UI
+
+jobs:
+  wait_and_print:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Wait for 1 seconds
+        run: sleep 1
+
+      - name: Print success message
+        run: echo "Success waiting 1 seconds!"
