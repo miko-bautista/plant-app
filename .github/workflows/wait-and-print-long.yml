@@ -1,4 +1,4 @@
-name: Wait and Print
+name: Wait and Print Long
 
 on:
   workflow_dispatch:  # Allows manual triggering from GitHub UI
